@@ -22,10 +22,19 @@ nav ul li{
     list-style: none;
     margin: 5px 20px;
     font-size: 16px;
+    transition: 0.5s;
+    padding: 10px;
 
 }
 
+nav ul li:hover{
+    background: rgb(222, 160, 2);
+   
+    border-radius: 7px;
+    
+}
+
 .dark-nav{
-    background-color: #212ea0;
+    background-color: #081479;
     transition: 0.5s;
 }
